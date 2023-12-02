@@ -5,7 +5,7 @@
 
 title: ZENG Qingyu's Homepage # Website name
 baseurl: 'https://qyzeng.xyz/' # Website URL
-copyright: '' # Footer text, e.g. '© {year} Me'
+copyright: '© {2023} Me' # Footer text, e.g. '© {year} Me'
 
 ############################
 ## LANGUAGE
