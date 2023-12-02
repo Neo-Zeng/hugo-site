@@ -6,7 +6,7 @@
 # Appearance
 
 theme: minimal
-day_night: true
+day_night: false
 font: ''
 font_size: L
 
@@ -21,8 +21,8 @@ twitter: ''
 # Contact (edit or remove options as required)
 
 email: qyzeng@cad.ict.e.titech.ac.jp
-#phone: 888 888 88 88
-#address:
+# phone: 888 888 88 88
+# address:
 #  street: 450 Serra Mall
 #  city: Stanford
 #  region: CA
@@ -30,30 +30,30 @@ email: qyzeng@cad.ict.e.titech.ac.jp
 #  country: United States
 #  country_code: US
 coordinates:
-  latitude: '37.4275'
-  longitude: '-122.1697'
+  latitude: '35.60318'
+  longitude: '139.68396'
 #directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
 #office_hours:
 #  - 'Monday 10:00 to 13:00'
 #  - 'Wednesday 09:00 to 10:00'
 #appointment_url: 'https://calendly.com'
 #contact_links:
-#  - icon: twitter
+  #- icon: twitter
+  #  icon_pack: fab
+  #  name: 404
+  #  link: 'https://twitter.com/404'
+  #- icon: skype
+  #  icon_pack: fab
+  #  name: 404
+  #  link: 'https://www.skype.com/404'
+ # - icon: keybase
 #    icon_pack: fab
-#    name: DM Me
-#    link: 'https://twitter.com/Twitter'
-#  - icon: skype
-#    icon_pack: fab
-#    name: Skype Me
-#    link: 'skype:echo123?call'
-#  - icon: keybase
-#    icon_pack: fab
-#    name: Chat on Keybase
-#    link: 'https://keybase.io/'
-#  - icon: comments
-#    icon_pack: fas
-#    name: Discuss on Forum
-#    link: 'https://discourse.gohugo.io'
+ #   name: Chat on Keybase
+ #   link: 'https://keybase.io/'
+  #- icon: comments
+   # icon_pack: fas
+  #  name: Discuss on Forum
+  #  link: 'https://discourse.gohugo.io'
 
 # Site header
 
@@ -68,9 +68,9 @@ main_menu:
 
 # Localization
 
-date_format: 'Jan 2, 2006'
-time_format: '3:04 PM'
-address_format: en-us
+#date_format: 'Jan 2, 2006'
+#time_format: '3:04 PM'
+#address_format: en-us
 
 # Site features
 
@@ -89,20 +89,20 @@ edit_page:
     post: false
     book: false
 show_related:
-  book: true
+  book: false
   page: false
-  post: true
-  project: true
+  post: false
+  project: false
   publication: true
-  event: true
-reading_time: true
+  event: false
+reading_time: false
 section_pager: false
-docs_section_pager: true
-sharing: true
+docs_section_pager: false
+sharing: false
 copyright_license:
   enable: false
   allow_derivatives: false
-  share_alike: true
+  share_alike: false
   allow_commercial: false
   notice: 'This work is licensed under {license}'
 abstract_length: 135
@@ -120,19 +120,19 @@ projects:
 breadcrumb:
   page_types:
     book: true
-comments:
-  provider: ''
-  commentable:
-    post: true
-    book: true
-    project: true
-    publication: true
-    event: true
-  disqus:
-    shortname: ''
-    show_count: true
-  commento:
-    url: ''
+#comments:
+#  provider: ''
+#  commentable:
+ #   post: true
+#    book: true
+#    project: true
+#    publication: true
+#    event: true
+#  disqus:
+#    shortname: ''
+#    show_count: true
+#  commento:
+#    url: ''
 search:
   provider: wowchemy
   algolia:
@@ -141,7 +141,7 @@ search:
     index_name: ''
     show_logo: false
 map:
-  provider: ''
+  provider: mapnik
   api_key: ''
   zoom: 15
 marketing:
