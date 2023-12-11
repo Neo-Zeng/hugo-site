@@ -1,9 +1,9 @@
 ---
 title: Welcome to my homepage
-subtitle: This is a more personal self-introduction. We know the first impression is important. This post will help you know more about myself.
+subtitle: This is a more personal self-introduction. We know the first impression is important. This post will help you know more about me.
 
 # Summary for listings and search engines
-summary: This is a more personal self-introduction. We know the first impression is important. This post will help you know more about myself.
+summary: This is a more personal self-introduction. We know the first impression is important. This post will help you know more about me.
 
 # Link this post with a project
 projects: []
