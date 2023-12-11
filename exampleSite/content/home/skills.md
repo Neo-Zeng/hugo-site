@@ -16,18 +16,18 @@ subtitle:
 # - Add/remove as many `feature` blocks below as you like.
 # - For available icons, see: https://wowchemy.com/docs/page-builder/#icons
 feature:
-- description: 90%
-  icon: r-project
-  icon_pack: fab
-  name: R
-- description: 100%
-  icon: chart-line
+- description: Verilog HDL, FPGA application, ASIC design
+  icon: microchip
   icon_pack: fas
-  name: Statistics
-- description: 10%
-  icon: camera-retro
+  name: Hardware
+- description: Machine Learning, Imbalance Mitigation
+  icon: python
   icon_pack: fas
-  name: Photography
+  name: Algorithm
+- description: DL-based NIDS, FPGA-accelerated NIDS
+  icon: shield-halved
+  icon_pack: fas
+  name: Network Intrusion Detection
 
 # Uncomment to use emoji icons.
 #- icon = ":smile:"
