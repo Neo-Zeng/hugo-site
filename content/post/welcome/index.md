@@ -39,7 +39,7 @@ categories:
 - blog
 ---
 
-# Personal self-introduction
+## Personal self-introduction
 
 I was born in Nanjing, one of the most developed cities in China, boasting a rich history that encompasses both moments of sorrow and glory. Despite some chapters of its history being marked by sadness, Nanjing holds a special place in my heart. It is not just a city; it is my exact and only hometown.
 
