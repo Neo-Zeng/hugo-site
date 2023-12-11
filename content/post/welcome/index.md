@@ -1,18 +1,18 @@
 ---
 title: Welcome to my homepage
-subtitle: Welcome 👋 We know that first impressions are important, so we've populated your new site with some initial content to help you get familiar with everything in no time.
+subtitle: This is a more personal self-introduction. We know the first impression is important. This post will help you know more about myself.
 
 # Summary for listings and search engines
-summary: Welcome 👋 We know that first impressions are important, so we've populated your new site with some initial content to help you get familiar with everything in no time.
+summary: This is a more personal self-introduction. We know the first impression is important. This post will help you know more about myself.
 
 # Link this post with a project
 projects: []
 
 # Date published
-date: "2020-12-13T00:00:00Z"
+date: "2023-12-12T00:00:00Z"
 
 # Date updated
-lastmod: "2020-12-13T00:00:00Z"
+lastmod: "2023-12-12T00:00:00Z"
 
 # Is this an unpublished draft?
 draft: false
