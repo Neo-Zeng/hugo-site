@@ -18,15 +18,15 @@ subtitle:
 feature:
 - description: FPGA application, AI accelerator design
   icon: microchip
-  icon_pack: fab
+  icon_pack: custom
   name: Hardware
 - description: Machine learning
   icon: python
-  icon_pack: fas
+  icon_pack: custom
   name: Algorithm
 - description: DL-based NIDS, FPGA-accelerated NIDS
   icon: shield-halved
-  icon_pack: fas
+  icon_pack: custom
   name: Network Intrusion Detection
 
 # Uncomment to use emoji icons.
