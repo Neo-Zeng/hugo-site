@@ -17,16 +17,16 @@ subtitle:
 # - For available icons, see: https://wowchemy.com/docs/page-builder/#icons
 feature:
 - description: FPGA application, AI accelerator design
-  icon: org-gc
-  icon_pack: custom
+  icon: "microchip"
+  icon_pack: "custom"
   name: Hardware
 - description: Machine Learning
-  icon: python
+  icon: "python"
   icon_pack: fas
   name: Algorithm
 - description: DL-based NIDS, FPGA-accelerated NIDS
-  icon: shield-halved
-  icon_pack: custom
+  icon: "shield-halved"
+  icon_pack: "custom"
   name: Network Intrusion Detection
 
 # Uncomment to use emoji icons.
