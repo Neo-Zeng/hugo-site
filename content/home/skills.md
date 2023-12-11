@@ -21,7 +21,7 @@ feature:
   icon_pack: custom
   name: Hardware
 - description: Machine Learning
-  icon: chart-line
+  icon: python
   icon_pack: fas
   name: Algorithm
 - description: DL-based NIDS, FPGA-accelerated NIDS
