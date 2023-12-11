@@ -39,10 +39,10 @@ experience:
     date_start: '2023-02-11'
     date_end: '2023-06-12'
     description: |2-
-        major research content
-      * Matrix mutiplication optimization study
-      * Algorithm prototype implementation
-      * Hardware design with Verilog
+        major research content:
+        * Matrix mutiplication optimization study
+        * Algorithm prototype implementation
+        * Hardware design with Verilog
 
 design:
   columns: '2'
