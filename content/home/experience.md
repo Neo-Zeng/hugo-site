@@ -9,7 +9,7 @@ headless: true
 # Order that this section appears on the page.
 weight: 40
 
-title: Experience
+title: Professional Experience
 subtitle:
 
 # Date format for experience
@@ -22,28 +22,27 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
-  - title: CEO
-    company: GenCoin
+  - title: Research Assistant
+    company: Tokyo Institute of Technology
     company_url: ''
-    company_logo: org-gc
-    location: California
-    date_start: '2021-01-01'
+    company_logo: titech
+    location: Tokyo
+    date_start: '2022-07-01'
     date_end: ''
     description: |2-
-        Responsibilities include:
+        I work as research assistant for both school of engineering and Green-IC project.
         
-        * Analysing
-        * Modelling
-        * Deploying
-        
-  - title: Professor of Semiconductor Physics
-    company: University X
+  - title: Research Intern
+    company: Polytechnique Montreal 
     company_url: ''
-    company_logo: org-x
-    location: California
-    date_start: '2016-01-01'
-    date_end: '2020-12-31'
-    description: Taught electronic engineering and researched semiconductor physics.
+    company_logo: plmtl
+    location: Montreal
+    date_start: '2023-02-11'
+    date_end: '2023-06-12'
+    description: major research content:
+      * Matrix mutiplication optimization study
+      * Algorithm prototype implementation
+      * Hardware design with Verilog
 
 design:
   columns: '2'
