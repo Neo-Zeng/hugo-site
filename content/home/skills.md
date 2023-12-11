@@ -9,7 +9,7 @@ headless: true
 # Order that this section appears on the page.
 weight: 30
 
-title: Skills
+title: Skills 
 subtitle:
 
 # Showcase personal skills or business features.
@@ -17,16 +17,16 @@ subtitle:
 # - For available icons, see: https://wowchemy.com/docs/page-builder/#icons
 feature:
 - description: FPGA application, AI accelerator design
-  icon: "microchip"
-  icon_pack: "custom"
+  icon: microchip
+  icon_pack: far
   name: Hardware
-- description: Machine Learning
-  icon: "python"
-  icon_pack: fas
+- description: Machine learning
+  icon: python
+  icon_pack: far
   name: Algorithm
 - description: DL-based NIDS, FPGA-accelerated NIDS
-  icon: "shield-halved"
-  icon_pack: "custom"
+  icon: shield-halved
+  icon_pack: far
   name: Network Intrusion Detection
 
 # Uncomment to use emoji icons.
