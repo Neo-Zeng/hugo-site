@@ -18,7 +18,7 @@ subtitle:
 feature:
 - description: FPGA application, AI accelerator design
   icon: microchip
-  icon_pack: fas
+  icon_pack: fab
   name: Hardware
 - description: Machine learning
   icon: python
