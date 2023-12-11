@@ -17,7 +17,7 @@ subtitle:
 # - For available icons, see: https://wowchemy.com/docs/page-builder/#icons
 feature:
 - description: FPGA application, AI accelerator design
-  icon: microship
+  icon: org-gc
   icon_pack: custom
   name: Hardware
 - description: Machine Learning
