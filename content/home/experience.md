@@ -26,20 +26,20 @@ experience:
     company: Tokyo Institute of Technology
     company_url: ''
     # company_logo: titech
-    location: Tokyo
+    location: Tokyo, Japan
     date_start: '2022-07-01'
     date_end: ''
-    description: I work as research assistant for both school of engineering and Green-IC project.
+    description: I work as research assistant for both school of engineering and [Green-niX project](https://www.knc.titech.ac.jp/gnx/).
         
   - title: Research Intern
     company: Polytechnique Montreal 
     company_url: ''
     # company_logo: plmtl
-    location: Montreal
+    location: Montreal, Canada
     date_start: '2023-02-11'
     date_end: '2023-06-12'
     description: |2-
-        major research content:
+        Major research content:
         * Matrix mutiplication optimization study
         * Algorithm prototype implementation
         * Hardware design with Verilog
