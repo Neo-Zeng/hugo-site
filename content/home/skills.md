@@ -16,15 +16,15 @@ subtitle:
 # - Add/remove as many `feature` blocks below as you like.
 # - For available icons, see: https://wowchemy.com/docs/page-builder/#icons
 feature:
-- description: 90%
+- description: FPGA application, AI accelerator design
   icon: microship
   icon_pack: fas
   name: Hardware
-- description: 100%
+- description: Machine Learning
   icon: python
   icon_pack: fas
   name: Algorithm
-- description: 10%
+- description: DL-based NIDS, FPGA-accelerated NIDS
   icon: shield-halved
   icon_pack: fas
   name: Network Intrusion Detection
