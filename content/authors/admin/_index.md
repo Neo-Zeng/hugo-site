@@ -14,7 +14,7 @@ organizations:
   url: https://www.titech.ac.jp//
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include embedded system, machine learning and IoT network security.
+bio: My research interests include machine learning, FPGA, hardware acceleration, and IoT network security.
 
 # Interests to show in About widget
 interests:
@@ -75,7 +75,7 @@ email: ""
 highlight_name: true
 ---
 
-I'm currently a PhD Candidate in [Hara Lab](http://www.cad.ce.titech.ac.jp/index.php/members) at Tokyo Tech, supervised by Prof. Yuko Hara. I'm now working on FPGA-based ML accelerator design for IoT security scene. This homepage is built with Hugo template. I'm now updating it.
+I'm currently a PhD Candidate in [Hara Lab](http://www.cad.ce.titech.ac.jp/index.php/members) at Tokyo Tech, supervised by [Prof. Yuko Hara](https://sites.google.com/site/yukoharaazumi/). I'm now working on FPGA-based ML accelerator design for IoT security scene. This homepage is built with Hugo template. I'm now updating it.
 
 
 
