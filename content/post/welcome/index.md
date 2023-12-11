@@ -47,7 +47,7 @@ Having spent the first 23 years of my life in Nanjing, I've developed a deep con
 
 Outside of my hometown, I have a profound love for outdoor activities and a keen interest in delving into the annals of history through reading. Whether it's exploring nature's wonders or immersing myself in the narratives of the past, these pursuits bring me a sense of fulfillment and joy.
 
-I find solace and inspiration in the great outdoors. Hiking allows me to witness the grandeur of nature, and engaging in group sports activities provides me with an opportunity to share my enthusiasm with others. Simultaneously, my passion for history is fulfilled through extensive reading, allowing me to delve into different cultures, historical figures, and events, gaining wisdom and insights along the way.
+I find solace and inspiration in the great outdoors. Hiking allows me to witness the grandeur of nature. Simultaneously, my passion for history is fulfilled through extensive reading, allowing me to delve into different cultures, historical figures, and events, gaining wisdom and insights along the way.
 
 Beyond my personal interests, I am also fascinated by societal issues and cultural diversity. I aspire to contribute to the progress and harmony of society through my understanding and efforts.
 
