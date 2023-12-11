@@ -25,7 +25,7 @@ experience:
   - title: Research Assistant
     company: Tokyo Institute of Technology
     company_url: ''
-    company_logo: titech
+    # company_logo: titech
     location: Tokyo
     date_start: '2022-07-01'
     date_end: ''
@@ -34,7 +34,7 @@ experience:
   - title: Research Intern
     company: Polytechnique Montreal 
     company_url: ''
-    company_logo: plmtl
+    # company_logo: plmtl
     location: Montreal
     date_start: '2023-02-11'
     date_end: '2023-06-12'
