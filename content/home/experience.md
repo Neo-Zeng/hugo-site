@@ -39,7 +39,7 @@ experience:
     date_start: '2023-02-11'
     date_end: '2023-06-12'
     description: |2-
-        Major research content:
+    I worked as a short-term researcher, under supervision of [Prof. Jean Pierre DAVID](https://www.grm.polymtl.ca/~david/wp/). My major research content included:
         * Matrix mutiplication optimization study
         * Algorithm prototype implementation
         * Hardware design with Verilog
