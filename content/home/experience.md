@@ -29,8 +29,7 @@ experience:
     location: Tokyo
     date_start: '2022-07-01'
     date_end: ''
-    description: |2-
-        I work as research assistant for both school of engineering and Green-IC project.
+    description: I work as research assistant for both school of engineering and Green-IC project.
         
   - title: Research Intern
     company: Polytechnique Montreal 
@@ -39,7 +38,8 @@ experience:
     location: Montreal
     date_start: '2023-02-11'
     date_end: '2023-06-12'
-    description: major research content:
+    description: |2-
+    major research content:
       * Matrix mutiplication optimization study
       * Algorithm prototype implementation
       * Hardware design with Verilog
