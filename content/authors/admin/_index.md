@@ -6,7 +6,7 @@ title: ZENG Qingyu
 superuser: true
 
 # Role/position/tagline
-role: PhD Candidate  
+role: PhD Student  
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -75,7 +75,7 @@ email: ""
 highlight_name: true
 ---
 
-I'm currently a PhD Candidate in [Hara Lab](http://www.cad.ce.titech.ac.jp/index.php/members) at Tokyo Tech, supervised by [Prof. Yuko Hara](https://sites.google.com/site/yukoharaazumi/). I'm now working on FPGA-based ML accelerator design for IoT security scene. This homepage is built with Hugo template. I'm now updating it.
+I'm currently a PhD student in [Hara Lab](http://www.cad.ce.titech.ac.jp/index.php/members) at Tokyo Tech, supervised by [Prof. Yuko Hara](https://sites.google.com/site/yukoharaazumi/). I'm now working on FPGA-based ML accelerator design for IoT security scene. This homepage is built with Hugo template. I'm now updating it.
 
 
 
