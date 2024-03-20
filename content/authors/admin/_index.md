@@ -32,13 +32,13 @@ education:
   #  year: 2012
   - course: PhD in Information and Communications Engineering
     institution: Tokyo Institute of Technology
-    year: 2023-2026
+    year: 2023.10-
   - course: MEng in Information and Communications Engineering
     institution: Tokyo Institute of Technology
-    year: 2021-2023
+    year: 2021.10-2023.09
   - course: BEng in VLSI Design & System Integration
     institution: Nanjing University
-    year: 2017-2021
+    year: 2017.09-2021.06
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
