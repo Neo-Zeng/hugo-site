@@ -21,8 +21,8 @@ interests:
  - FPGA
  - Efficient Machine Learning
  - Embedded System
- - IoT Intrusion Detection
- - RISC-V
+ - Internet of Things
+ - Intrusion Detection System
  - Computer Architecture
 # Education to show in About widget
 education:
