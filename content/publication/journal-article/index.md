@@ -27,7 +27,7 @@ abstract: The rapid expansion of the Internet of Things (IoT) has increased secu
 # Summary. An optional shortened abstract.
 summary: 
 tags:
-- Journal paper
+- Journal Paper
 featured: false
 
 # links:
