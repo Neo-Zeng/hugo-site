@@ -1,7 +1,7 @@
 ---
 title: "Hardware/Software Codesign of Real-Time Intrusion Detection System for Internet of Things Devices"
 authors:
-- admin
+- Qingyu Zeng
 - Yuko Hara-Azumi
 author_notes:
 - "corresponding author"
