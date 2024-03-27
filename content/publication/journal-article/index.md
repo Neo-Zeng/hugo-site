@@ -4,7 +4,7 @@ authors:
 - admin
 - Yuko Hara-Azumi
 author_notes:
-- ""
+- "corresponding author"
 - ""
 date: "2024-03-22T00:00:00Z"
 doi: "10.1109/JIOT.2024.3380822"
@@ -27,7 +27,7 @@ abstract: The rapid expansion of the Internet of Things (IoT) has increased secu
 # Summary. An optional shortened abstract.
 summary: 
 tags:
-- Source Themes
+- Journal paper
 featured: false
 
 # links:
@@ -61,15 +61,15 @@ projects: []
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides: "example"` references `content/slides/example/index.md`.
 #   Otherwise, set `slides: ""`.
-slides: example
+# slides: example
 ---
 
 {{% callout note %}}
-Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+# Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
 {{% /callout %}}
 
 {{% callout note %}}
-Create your slides in Markdown - click the *Slides* button to check out the example.
+# Create your slides in Markdown - click the *Slides* button to check out the example.
 {{% /callout %}}
 
-Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/).
+# Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/).
