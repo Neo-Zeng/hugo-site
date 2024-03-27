@@ -4,9 +4,9 @@ authors:
 - admin
 - Yuko Hara-Azumi
 author_notes:
-- "Equal contribution"
-- "Equal contribution"
-date: "2015-09-01T00:00:00Z"
+- ""
+- ""
+date: "2024-03-22T00:00:00Z"
 doi: "10.1109/JIOT.2024.3380822"
 
 # Schedule page publish date (NOT publication's date).
@@ -22,11 +22,10 @@ publication_types: ["2"]
 publication: "*IEEE Internet of Things Journal, 2024. *(*accepted)"
 publication_short: ""
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: The rapid expansion of the Internet of Things (IoT) has increased security concerns, thereby necessitating efficient intrusion detection systems (IDS). In this paper, we propose a real-time IoT IDS designed by combining a random forest (RF) classifier with an ensemble feature selection technique (EFST). The proposed IDS can be deployed on a small-scale field-programmable gate array (FPGA) board. The system utilizes a two-metric ensemble feature selection process to reduce computational complexity and enhance classification accuracy. In addition, the EFST aggressively extracts a limited number of features, thereby reducing the complexity of the RF model. Then, the tailored RF classifier is mapped onto an FPGA-based hardware accelerator to realize real-time detection. The proposed method was evaluated experimentally on the benchmark BoT-IoT dataset. The results demonstrate that the proposed IDS realizes significant improvements in terms of resource utilization and processing time compared to several state-of-the-art FPGA-based IDS implementations while maintaining sufficient detection accuracy. In particular, our implementation on the Xilinx PYNQ Z2 achieved 10.2×, 135.7×, and 8.43× speed-up compared to state-of-the-art IDSs running on an Intel Core i7 CPU, an ARM Cortex-A9 microprocessor, and a neural network-based accelerator on the PYNQ, respectively. In addition, our approach exhibits the lowest resource utilization among FPGA-based IDS solutions. These results demonstrate that this work contributes to developing secure and sustainable IoT ecosystems by integrating EFST, RF classification, and FPGA-based acceleration.
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
-
+summary: 
 tags:
 - Source Themes
 featured: false
@@ -46,7 +45,7 @@ url_video: ''
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/jdD8gXaTZsc)'
+  caption: ''
   focal_point: ""
   preview_only: false
 
