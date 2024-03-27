@@ -1,6 +1,6 @@
 ---
 # Display name
-title: ZENG Qingyu 
+title: Qingyu Zeng
 
 # Is this the primary user of the site?
 superuser: true
