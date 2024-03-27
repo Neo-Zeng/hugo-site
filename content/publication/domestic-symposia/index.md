@@ -64,11 +64,4 @@ projects: []
 # slides: example
 ---
 
-{{% callout note %}}
-
-{{% /callout %}}
-
-{{% callout note %}}
-
-{{% /callout %}}
 
