@@ -1,7 +1,7 @@
 ---
 title: "FPGA-Accelerated Random Forest for Real-Time IoT Intrusion Detection"
 authors:
-- Qingyu Zeng
+- admin
 - Yuko Hara
 author_notes:
 - "presenter"
