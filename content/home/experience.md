@@ -29,7 +29,7 @@ experience:
     location: Tokyo, Japan
     date_start: '2022-07-01'
     date_end: ''
-    description: I work as a research assistant for both school of engineering and [Green-niX project](https://www.knc.titech.ac.jp/gnx/).
+    description: I work as a research assistant for [Trustworthy Architecture, Cryptography, and Evaluation for IoT systems](https://trace-for-iot.org/) and [Green-niX](https://www.knc.titech.ac.jp/gnx/).
         
   - title: Research Intern
     company: Polytechnique Montreal 
