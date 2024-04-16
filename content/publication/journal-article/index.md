@@ -4,7 +4,7 @@ authors:
 - admin
 - Yuko Hara-Azumi
 author_notes:
-- "corresponding author"
+- ""
 - ""
 date: "2024-03-22T00:00:00Z"
 doi: "10.1109/JIOT.2024.3380822"
