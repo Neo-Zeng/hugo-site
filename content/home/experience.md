@@ -38,12 +38,12 @@ experience:
     location: Montreal, Canada
     date_start: '2023-02-11'
     date_end: '2023-06-12'
-    description:
-      I worked as a short-term researcher. My major research content included:
+    description:|2-
+      I worked as a short-term researcher. The project codes and document are available through the [link](https://github.com/qyz-pi/Matrix-Multiplication-Optimization-for-LUT-Usage-on-FPGA). My major research content included:
         * Matrix multiplication optimization study
         * Algorithm prototype implementation
         * Hardware design with Verilog
-    The project codes and document are available through the [link](https://github.com/qyz-pi/Matrix-Multiplication-Optimization-for-LUT-Usage-on-FPGA).
+    
 
 design:
   columns: '2'
