@@ -38,7 +38,7 @@ experience:
     location: Montreal, Canada
     date_start: '2023-02-11'
     date_end: '2023-06-12'
-    description: |2-
+    description:
       I worked as a short-term researcher. My major research content included:
         * Matrix multiplication optimization study
         * Algorithm prototype implementation
