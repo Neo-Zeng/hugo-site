@@ -43,7 +43,7 @@ experience:
         * Matrix multiplication optimization study
         * Algorithm prototype implementation
         * Hardware design with Verilog
-    The project codes and document are available through the (link)[https://github.com/qyz-pi/Matrix-Multiplication-Optimization-for-LUT-Usage-on-FPGA].
+    The project codes and document are available through the [link](https://github.com/qyz-pi/Matrix-Multiplication-Optimization-for-LUT-Usage-on-FPGA).
 
 design:
   columns: '2'
