@@ -24,10 +24,10 @@ feature:
   icon: python
   icon_pack: custom
   name: Algorithm
-- description: DL-based NIDS, FPGA-accelerated NIDS
+- description: DL-based IDS, FPGA-accelerated IDS
   icon: shield-halved
   icon_pack: custom
-  name: Network Intrusion Detection
+  name: Intrusion Detection System 
 
 # Uncomment to use emoji icons.
 #- icon: ":smile:"
