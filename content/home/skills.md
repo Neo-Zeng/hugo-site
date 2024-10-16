@@ -20,7 +20,7 @@ feature:
   icon: microchip
   icon_pack: custom
   name: Hardware
-- description: Machine learning
+- description: Machine learning, Deep learning, Imbalanced learning
   icon: python
   icon_pack: custom
   name: Algorithm
