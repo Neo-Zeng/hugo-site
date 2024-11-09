@@ -22,6 +22,15 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
+- title: Visiting Researcher
+    company: Université libre de Bruxelles
+    company_url: ''
+    # company_logo: titech
+    location: Brussels, Belgium
+    date_start: '2024-11-04'
+    date_end: ''
+    description: Hosted by ULB Cybersecurity Research Center, I'm now conducted study on embedded system security.
+
   - title: Research Assistant
     company: Tokyo Institute of Technology
     company_url: ''
