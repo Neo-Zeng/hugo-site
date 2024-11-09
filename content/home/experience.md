@@ -29,7 +29,7 @@ experience:
     location: Brussels, Belgium
     date_start: '2024-11-04'
     date_end: ''
-    description: Hosted by ULB Cybersecurity Research Center, I'm now conducted study on embedded system security.
+    description: Hosted by ULB Cybersecurity Research Center, I'm now studying embedded system security.
 
   - title: Research Assistant
     company: Tokyo Institute of Technology
