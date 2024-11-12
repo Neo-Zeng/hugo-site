@@ -75,7 +75,7 @@ email: ""
 highlight_name: true
 ---
 
-I'm currently a PhD student in [Hara Lab](http://www.cad.ce.titech.ac.jp/index.php/members) at Tokyo Tech, supervised by [Prof. Yuko Hara](https://sites.google.com/site/yukoharaazumi/). I'm now working on FPGA-based ML accelerator design for IoT security scene.
+I'm currently a PhD student in [Hara Lab](http://www.cad.ce.titech.ac.jp/index.php/members) at Tokyo Tech, supervised by [Prof. Yuko Hara](https://sites.google.com/site/yukoharaazumi/). My research focuses on FPGA-based ML accelerator design for IoT security scene.
 
 
 
