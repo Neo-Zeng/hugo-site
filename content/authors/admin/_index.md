@@ -10,8 +10,8 @@ role: PhD Student
 
 # Organizations/Affiliations to show in About widget
 organizations:
-- name: Tokyo Institute of Technology
-  url: https://www.titech.ac.jp//
+- name: Institute of Science Tokyo
+  url: https://www.isct.ac.jp/en
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include machine learning, FPGA, hardware acceleration, and IoT network security.
