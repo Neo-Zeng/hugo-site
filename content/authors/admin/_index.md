@@ -31,7 +31,7 @@ education:
   #  institution: Stanford University
   #  year: 2012
   - course: PhD in Information and Communications Engineering
-    institution: Tokyo Institute of Technology
+    institution: Institute of Science Tokyo (formerly Tokyo Institute of Technology)
     year: 2023.10 ~ present
   - course: MEng in Information and Communications Engineering
     institution: Tokyo Institute of Technology
