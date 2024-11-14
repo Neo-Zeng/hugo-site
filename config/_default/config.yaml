@@ -4,7 +4,7 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 title: Qingyu's Homepage # Website name
-baseurl: 'https://qyzeng.xyz/' # Website URL
+baseurl: 'https://qingyuzeng.com/' # Website URL
 copyright: '© {2024} Qingyu Zeng. All Rights Reserved. Designed by Hugo.' # Footer text, e.g. '© {year} Me'
 
 ############################
