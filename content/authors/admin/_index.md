@@ -6,7 +6,7 @@ title: Qingyu Zeng
 superuser: true
 
 # Role/position/tagline
-role: PhD Student  
+role: Ph.D. Student  
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -14,7 +14,7 @@ organizations:
   url: https://www.isct.ac.jp/en
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include machine learning, FPGA, hardware acceleration, and IoT network security.
+bio: My research interests focus on AI for IoT security.
 
 # Interests to show in About widget
 interests:
@@ -75,7 +75,7 @@ email: ""
 highlight_name: true
 ---
 
-I'm currently a PhD student in [Hara Lab](http://www.cad.ce.titech.ac.jp/index.php/members) at Tokyo Tech, supervised by [Prof. Yuko Hara](https://sites.google.com/site/yukoharaazumi/). My research focuses on FPGA-based ML accelerator design for IoT security scene.
+I'm currently a Ph.D. student in [Hara Lab](http://www.cad.ce.titech.ac.jp/index.php/members) at Insititute of Science Tokyo, supervised by [Prof. Yuko Hara](https://sites.google.com/site/yukoharaazumi/). My research interests include hardware/software co-design methodologies for embedded systems, IoT security, and intrusion detection system design.
 
 
 
