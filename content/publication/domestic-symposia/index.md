@@ -19,7 +19,7 @@ publishDate: "2024-03-27T00:00:00Z"
 publication_types: ["4"]
 
 # Publication name and optional abbreviated publication name.
-publication: "IEICE Tech. Rep., vol. 123, no. 374, RECONF2023-100, pp. 99-104, Jan. 2024"
+publication: "*IEICE Tech. Rep.*, vol. 123, no. 374, RECONF2023-100, pp. 99-104, Jan. 2024"
 publication_short: ""
 
 abstract: 
