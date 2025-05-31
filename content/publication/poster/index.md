@@ -23,7 +23,7 @@ publishDate: "2024-09-17T00:00:00Z"
 publication_types: ["4"]
 
 # Publication name and optional abbreviated publication name.
-publication: " *International Workshop on Security (IWSEC)*, Kyoto, Japan, Sept. 17th, 2024 [Peer-reviewed, Poster Presentation]"
+publication: " *International Workshop on Security (IWSEC)*, Kyoto, Japan, Sept. 17th, 2024. [Peer-reviewed, Poster Presentation]"
 publication_short: ""
 
 abstract: 
