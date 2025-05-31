@@ -31,7 +31,7 @@ abstract:
 # Summary. An optional shortened abstract.
 summary: 
 tags:
-- Domestic Symposia
+- International Conference
 featured: false
 
 # links:
