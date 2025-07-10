@@ -28,8 +28,8 @@ experience:
     # company_logo: titech
     location: Brussels, Belgium
     date_start: '2024-11-04'
-    date_end: ''
-    description: Hosted by ULB Cybersecurity Research Center, I'm now studying embedded system security.
+    date_end: '2025-02-04'
+    description: Hosted by ULB Cybersecurity Research Center, I research intrusion detection systems from dataset building to system implementation at the edge.
 
   - title: Research Assistant
     company: Tokyo Institute of Technology
