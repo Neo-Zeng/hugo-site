@@ -75,7 +75,7 @@ email: ""
 highlight_name: true
 ---
 
-I'm currently a Ph.D. student in [Hara Lab](http://www.cad.ce.titech.ac.jp/index.php/members) at Insititute of Science Tokyo, supervised by [Prof. Yuko Hara](https://sites.google.com/site/yukoharaazumi/). My research interests include hardware/software co-design methodologies for embedded systems, IoT security, and intrusion detection system design.
+I'm currently a Ph.D. student in [Hara Lab](http://www.cad.ce.titech.ac.jp/index.php/members) at Institute of Science Tokyo, supervised by [Prof. Yuko Hara](https://sites.google.com/site/yukoharaazumi/). My research interests include hardware/software co-design methodologies for embedded systems, IoT security, and intrusion detection system design.
 
 
 
