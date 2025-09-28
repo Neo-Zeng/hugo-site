@@ -23,7 +23,7 @@ publishDate: "2025-01-18T00:00:00Z"
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: " *IEEE International Conference on Communications (ICC)*, Montreal, QC, Canada, 2025, pp. 1851-1856"
+publication: " *IEEE International Conference on Communications (ICC)*, pp. 1851-1856, Montreal, Canada, Jun.2025"
 publication_short: ""
 
 abstract: 
@@ -67,4 +67,5 @@ projects: []
 #   Otherwise, set `slides: ""`.
 # slides: example
 ---
+
 
