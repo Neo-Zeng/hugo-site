@@ -48,7 +48,7 @@ experience:
     date_start: '2023-02-11'
     date_end: '2023-06-12'
     description: |2-
-      I worked as a short-term researcher. The project codes and document are available through the [link](https://github.com/qyz-pi/Matrix-Multiplication-Optimization-for-LUT-Usage-on-FPGA/).
+      I worked as a short-term researcher. The project codes and documents are available through the following link: https://github.com/qyz-pi/Matrix-Multiplication-Optimization-for-LUT-Usage-on-FPGA/. 
       My major research content included:
         * Matrix multiplication optimization study
         * Algorithm prototype implementation
