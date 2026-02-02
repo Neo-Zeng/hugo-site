@@ -23,7 +23,7 @@ publishDate: "2025-05-31T00:00:00Z"
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: " *Workshop on Hardware-Supported Software Security in conjunction with ESORICS*, Toulouse, France, Sept. 2025. **(accepted)**"
+publication: " *Workshop on Hardware-Supported Software Security in conjunction with ESORICS*, Toulouse, France, Sept. 2025. (*accepted)"
 publication_short: ""
 
 abstract: As cyberattacks targeting edge devices become increasingly sophisticated, detecting intrusion behaviors becomes increasingly difficult, demanding effective intrusion detection systems (IDS) tailored for resource-constrained environments. Existing provenance-based IDSs show a promising ability to detect benign and attack behaviors, but require a lot of computing resources to build provenance graphs, which is not conducive to edge deployment. To address this gap, we propose a semantic-aware provenance-based IDS, which constructs provenance graphs and prioritizes security-critical events using semantic roles. Through structural and semantic analysis on the DARPA Engagement 3 (CADETS) dataset,  we show that role-annotated subgraphs exhibit measurable divergence between benign and attack activities, with certain roles (e.g., binary-execution) appearing over 3× more frequently in attack traces, demonstrating the feasibility of semantic priors for lightweight intrusion detection. 
@@ -66,6 +66,7 @@ projects: []
 #   Otherwise, set `slides: ""`.
 # slides: example
 ---
+
 
 
 
