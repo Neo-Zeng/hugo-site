@@ -11,7 +11,7 @@ author_notes:
 - ""
 - ""
 date: "2025-09-25T00:00:00Z"
-# doi: "10.1007/978-3-032-16165-9_24"
+doi: "10.1007/978-3-032-16165-9_24"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2025-05-31T00:00:00Z"
