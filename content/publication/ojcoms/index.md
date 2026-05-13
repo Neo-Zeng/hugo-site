@@ -7,7 +7,7 @@ authors:
 author_notes:
 - ""
 - ""
-date: "2026-05-4T00:00:00Z"
+date: "2026-05-04T00:00:00Z"
 doi: "10.1109/OJCOMS.2026.3690041"
 
 # Schedule page publish date (NOT publication's date).
