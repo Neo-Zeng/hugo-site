@@ -51,9 +51,9 @@ social:
 # - icon: linkedin
 #  icon_pack: fab
 #  link: https://www.linkedin.com/in/qingyu-zeng-b103031ba/
-# - icon: graduation-cap  # Alternatively, use `google-scholar` icon from `ai` icon pack
-#  icon_pack: fas
-#  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+- icon: google-scholar  # Alternatively, use `google-scholar` icon from `ai` icon pack
+  icon_pack: ai
+  link: https://scholar.google.com/citations?hl=en&user=I-vp22IAAAAJ
 - icon: github
   icon_pack: fab
   link: https://github.com/qyz-pi
