@@ -32,7 +32,7 @@ education:
   #  year: 2012
   - course: PhD in Information and Communications Engineering
     institution: Institute of Science Tokyo (formerly Tokyo Institute of Technology)
-    year: 2023.10 ~ present
+    year: 2023.10 ~ 2026.09
   - course: MEng in Information and Communications Engineering
     institution: Tokyo Institute of Technology
     year: 2021.10 ~ 2023.09
