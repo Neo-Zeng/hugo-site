@@ -9,7 +9,7 @@ report_matches() {
   local pattern="$2"
   shift 2
 
-  if matches=$(rg -n --glob '*.md' "$pattern" "$@" 2>/dev/null); then
+  if matches=$(grep -Enr --include='*.md' "$pattern" "$@" 2>/dev/null); then
     echo "ERROR: ${label}"
     echo "$matches"
     status=1
@@ -30,18 +30,18 @@ for demo in \
   content/event/example/index.md \
   content/project/example/index.md \
   content/slides/example/index.md; do
-  if [[ -f "$demo" ]] && ! rg -q '^draft:[[:space:]]*true' "$demo"; then
+  if [[ -f "$demo" ]] && ! grep -qE '^draft:[[:space:]]*true' "$demo"; then
     echo "ERROR: Starter content must remain draft: $demo"
     status=1
   fi
 done
 
-if ! rg -q '^description:[[:space:]]*[^[:space:]]' config/_default/params.yaml; then
+if ! grep -qE '^description:[[:space:]]*[^[:space:]]' config/_default/params.yaml; then
   echo "ERROR: SEO description is missing from config/_default/params.yaml"
   status=1
 fi
 
-if ! rg -q "^baseurl:[[:space:]]*['\"]https://qingyuzeng\.com/" config/_default/config.yaml; then
+if ! grep -qE "^baseurl:[[:space:]]*['\"]https://qingyuzeng\.com/" config/_default/config.yaml; then
   echo "ERROR: The production base URL is not the canonical HTTPS domain."
   status=1
 fi
