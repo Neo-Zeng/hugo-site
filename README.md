@@ -11,7 +11,7 @@ The repository is public on GitHub and deployed automatically by Netlify from th
 - **Content:** Markdown and YAML front matter in `content/`
 - **Site configuration:** `config/_default/`
 - **Custom visual system:** `assets/scss/custom.scss`
-- **Visitor map:** ClustrMaps with a responsive, local public-domain fallback map
+- **Visitor map:** MapMyVisitors with a responsive, local public-domain fallback map
 - **Hosting:** Netlify, with the custom domain `qingyuzeng.com`
 
 The Hugo and Wowchemy versions are intentionally pinned together. Update them as a tested pair; upgrading only Hugo can break the theme's SCSS pipeline.
@@ -35,7 +35,7 @@ Generated output is written to `public/` and must not be committed.
 
 The legacy Wowchemy/Netlify CMS route is intentionally disabled. Content changes go through Git branches and deploy previews, which keeps review and rollback history in one place and avoids loading obsolete CMS scripts on the public homepage.
 
-The visitor map displays aggregated counts and approximate origins through ClustrMaps. Its local fallback base map is the public-domain `BlankMap-World2.png` from Wikimedia Commons. If the third-party service is blocked or unavailable, the page keeps its layout and shows the local map without claiming live statistics.
+The visitor map displays aggregated counts and approximate origins through MapMyVisitors. Its local fallback base map is the public-domain `BlankMap-World2.png` from Wikimedia Commons. If the third-party service is blocked or unavailable, the page keeps its layout and shows the local map without claiming live statistics. The MapMyVisitors widget ID belongs in the `visitor_map` shortcode call and must not be replaced with a demo site's ID.
 
 ## Updating the site
 

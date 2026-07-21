@@ -14,6 +14,6 @@ advanced:
 ---
 
 <div class="visitor-map-shell">
-  {{< visitor_map >}}
-  <p class="visitor-map-credit">Powered by <a href="https://clustrmaps.com/" target="_blank" rel="noopener">ClustrMaps</a></p>
+  {{< visitor_map id="Z_pZiXy5n-VeQ507ZwjRodHVULMpMwxZnsOkh3-p10o" >}}
+  <p class="visitor-map-credit">Powered by <a href="https://mapmyvisitors.com/" target="_blank" rel="noopener">MapMyVisitors</a></p>
 </div>
