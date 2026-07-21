@@ -2,7 +2,7 @@
 widget: blank
 active: true
 headless: true
-weight: 80
+weight: 100
 #title: Visitors Around the World
 subtitle: ''
 
