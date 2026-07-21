@@ -3,9 +3,9 @@
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-title: Qingyu's Homepage # Website name
+title: Qingyu Zeng # Website name
 baseurl: 'https://qingyuzeng.com/' # Website URL
-copyright: '© {2026} Qingyu Zeng. All Rights Reserved. Designed by Hugo.' # Footer text, e.g. '© {year} Me'
+copyright: '© {year} Qingyu Zeng. Built with Hugo.' # Footer text, e.g. '© {year} Me'
 
 ############################
 ## LANGUAGE
@@ -22,7 +22,6 @@ removePathAccents: true
 
 module:
   imports:
-    - path: github.com/wowchemy/wowchemy-hugo-modules/wowchemy-cms/v5
     - path: github.com/wowchemy/wowchemy-hugo-modules/wowchemy/v5
 
 ############################

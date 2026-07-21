@@ -8,19 +8,19 @@
 theme: minimal
 day_night: false
 font: ''
-font_size: L
+font_size: M
 
 # SEO
 
 site_type: Person
 local_business_type: ''
 org_name: ''
-description: ''
+description: 'Qingyu Zeng researches efficient edge AI, hardware-assisted IoT security, and real-time intrusion detection at the Institute of Science Tokyo.'
 twitter: ''
 
 # Contact (edit or remove options as required)
 
-email: qyzeng[at]cad.ict.e.titech.ac.jp (please replace [at] with @)
+email: qyzeng [at] cad.ict.e.titech.ac.jp
 # phone: 888 888 88 88
 # address:
 #  street: 450 Serra Mall
@@ -29,9 +29,7 @@ email: qyzeng[at]cad.ict.e.titech.ac.jp (please replace [at] with @)
 #  postcode: '94305'
 #  country: United States
 #  country_code: US
-coordinates:
-  latitude: '35.60318'
-  longitude: '139.68396'
+# A precise map is intentionally omitted from this public personal website.
 #directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
 #office_hours:
 #  - 'Monday 10:00 to 13:00'
@@ -150,9 +148,6 @@ marketing:
   google_site_verification: ''
   baidu_site_verification: ''
   baidu_tongji: ''
-cms:
-  branch: master
-  local_backend: false
 icon:
   pack:
     ai: true

@@ -7,7 +7,7 @@ widget: experience
 headless: true
 
 # Order that this section appears on the page.
-weight: 40
+weight: 70
 
 title: Professional Experience
 subtitle:
@@ -29,16 +29,16 @@ experience:
     location: Brussels, Belgium
     date_start: '2024-11-04'
     date_end: '2025-02-04'
-    description: Hosted by ULB Cybersecurity Research Center, I research intrusion detection systems from dataset building to system implementation at the edge.
+    description: Hosted by the ULB Cybersecurity Research Center, I researched intrusion detection systems from dataset development to edge implementation.
 
   - title: Research Assistant
-    company: Tokyo Institute of Technology
+    company: Institute of Science Tokyo
     company_url: ''
     # company_logo: titech
     location: Tokyo, Japan
     date_start: '2022-07-01'
     date_end: ''
-    description: I work as a research assistant for [Trustworthy Architecture, Cryptography, and Evaluation for IoT systems](https://trace-for-iot.org/) and [Green-niX](https://www.knc.titech.ac.jp/gnx/).
+    description: I contribute to [Trustworthy Architecture, Cryptography, and Evaluation for IoT systems](https://trace-for-iot.org/) and [Green-niX](https://www.knc.titech.ac.jp/gnx/), with a focus on efficient and secure edge computing.
         
   - title: Research Intern
     company: Polytechnique Montreal 

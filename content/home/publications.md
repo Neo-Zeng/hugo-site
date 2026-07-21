@@ -7,16 +7,16 @@ widget: pages
 headless: true
 
 # Order that this section appears on the page.
-weight: 90
+weight: 40
 
-title: Publications
-subtitle: ''
+title: Selected Publications
+subtitle: Recent work spanning hardware-assisted security, edge AI, and trustworthy intrusion detection.
 
 content:
   # Page type to display. E.g. post, talk, publication...
   page_type: publication
   # Choose how much pages you would like to display (0 = all pages)
-  count: 10
+  count: 6
   # Choose how many pages you would like to offset by
   offset: 0
   # Page order: descending (desc) or ascending (asc) date.
@@ -38,5 +38,5 @@ design:
 ---
 
 {{% callout note %}}
-Quickly discover relevant content by [filtering publications](./publication/).
+Browse the [complete publication archive](./publication/) for abstracts, citations, and available resources.
 {{% /callout %}}

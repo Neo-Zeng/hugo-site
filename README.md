@@ -1,44 +1,78 @@
-<p align="center"><a href="https://wowchemy.com/templates/" target="_blank" rel="noopener"><img src="https://wowchemy.com/uploads/readmes/academic_logo_200px.png" alt="Hugo Academic Template for Wowchemy Website Builder"></a></p>
+# qingyuzeng.com
 
-# Academic Template for [Hugo](https://github.com/gohugoio/hugo)
+Source for [qingyuzeng.com](https://qingyuzeng.com), the academic homepage of Qingyu Zeng. The site presents research on efficient edge AI, hardware-assisted IoT security, and real-time intrusion detection.
 
-The Hugo **Academic Resumé Template** empowers you to create your job-winning online resumé and showcase your academic publications.
+The repository is public on GitHub and deployed automatically by Netlify from the `master` branch. Pull requests receive a Netlify deploy preview and run the same production build in GitHub Actions.
 
-[Check out the latest demo](https://academic-demo.netlify.app/) of what you'll get in less than 10 minutes, or [view the showcase](https://wowchemy.com/user-stories/).
+## Architecture
 
-[**Wowchemy**](https://wowchemy.com) makes it easy to create a beautiful website for free. Edit your site in Markdown, Jupyter, or RStudio (via Blogdown), generate it with Hugo, and deploy with GitHub or Netlify. Customize anything on your site with widgets, themes, and language packs.
+- **Generator:** Hugo Extended 0.84.4
+- **Theme:** Wowchemy Academic v5.3.0, loaded as a Hugo module
+- **Content:** Markdown and YAML front matter in `content/`
+- **Site configuration:** `config/_default/`
+- **Custom visual system:** `assets/scss/custom.scss`
+- **Visitor map:** ClustrMaps with a responsive, local public-domain fallback map
+- **Hosting:** Netlify, with the custom domain `qingyuzeng.com`
 
-- 👉 [**Get Started**](https://wowchemy.com/templates/)
-- 📚 [View the **documentation**](https://wowchemy.com/docs/)
-- 💬 [Chat with the **Wowchemy community**](https://discord.gg/z8wNYzb) or [**Hugo community**](https://discourse.gohugo.io)
-- 🐦 Twitter: [@wowchemy](https://twitter.com/wowchemy) [@GeorgeCushen](https://twitter.com/GeorgeCushen) [#MadeWithWowchemy](https://twitter.com/search?q=(%23MadeWithWowchemy%20OR%20%23MadeWithAcademic)&src=typed_query)
-- 💡 [Request a **feature** or report a **bug** for _Wowchemy_](https://github.com/wowchemy/wowchemy-hugo-modules/issues)
-- ⬆️ **Updating Wowchemy?** View the [Update Guide](https://wowchemy.com/docs/guide/update/) and [Release Notes](https://wowchemy.com/updates/)
+The Hugo and Wowchemy versions are intentionally pinned together. Update them as a tested pair; upgrading only Hugo can break the theme's SCSS pipeline.
 
-## Crowd-funded open-source software
+## Local preview
 
-To help us develop this template and software sustainably under the MIT license, we ask all individuals and businesses that use it to help support its ongoing maintenance and development via sponsorship.
+Install the Extended edition of Hugo 0.84.4, then run:
 
-### [❤️ Click here to unlock rewards with sponsorship](https://wowchemy.com/plans/)
+```bash
+hugo server --disableFastRender
+```
 
-## Ecosystem
+Open `http://localhost:1313`. To reproduce the deployment build:
 
-* **[Hugo Academic CLI](https://github.com/wowchemy/hugo-academic-cli):** Automatically import publications from BibTeX
+```bash
+bash scripts/check-content.sh
+hugo --gc --minify
+```
 
-[![Screenshot](https://raw.githubusercontent.com/wowchemy/wowchemy-hugo-modules/main/academic.png)](https://wowchemy.com)
+Generated output is written to `public/` and must not be committed.
 
-## Demo image credits
+The legacy Wowchemy/Netlify CMS route is intentionally disabled. Content changes go through Git branches and deploy previews, which keeps review and rollback history in one place and avoids loading obsolete CMS scripts on the public homepage.
 
-- [Open book](https://unsplash.com/photos/J4kK8b9Fgj8)
-- [Course](https://unsplash.com/photos/JKUTrJ4vK00)
+The visitor map displays aggregated counts and approximate origins through ClustrMaps. Its local fallback base map is the public-domain `BlankMap-World2.png` from Wikimedia Commons. If the third-party service is blocked or unavailable, the page keeps its layout and shows the local map without claiming live statistics.
 
-## Latest news
-<!--START_SECTION:news-->
-* [What&#39;s new in v5.2?](https:&#x2F;&#x2F;wowchemy.com&#x2F;blog&#x2F;v5.2.0&#x2F;)
-* [What&#39;s new in v5.1?](https:&#x2F;&#x2F;wowchemy.com&#x2F;blog&#x2F;v5.1.0&#x2F;)
-* [Version 5.0 (February 2021)](https:&#x2F;&#x2F;wowchemy.com&#x2F;blog&#x2F;v5.0.0&#x2F;)
-* [Version 5.0 Beta 3 (February 2021)](https:&#x2F;&#x2F;wowchemy.com&#x2F;blog&#x2F;v5.0.0-beta.3&#x2F;)
-* [Version 5.0 Beta 2 (January 2021)](https:&#x2F;&#x2F;wowchemy.com&#x2F;blog&#x2F;v5.0.0-beta.2&#x2F;)
-<!--END_SECTION:news-->
+## Updating the site
 
-[![Analytics](https://ga-beacon.appspot.com/UA-78646709-2/starter-academic/readme?pixel)](https://github.com/igrigorik/ga-beacon)
+### Profile and homepage
+
+- Profile, education, affiliations, and social links: `content/authors/admin/_index.md`
+- Homepage sections and their order: `content/home/`
+- Navigation: `config/_default/menus.yaml`
+- SEO, contact, and appearance: `config/_default/params.yaml`
+
+Homepage sections are ordered by their `weight`. Keep the first screen concise; place detailed records in publications and experience.
+
+### Add a publication
+
+1. Copy an existing folder in `content/publication/` and give it a short, stable slug.
+2. Update `title`, `authors`, `date`, `publication_types`, `publication`, and `doi`.
+3. Store DOI values as identifiers such as `10.1109/example`, not full `https://doi.org/` URLs.
+4. Add `cite.bib` and a `featured.png` only when those assets are available.
+5. If the work is a major milestone, add a short item to `content/home/updates.md`.
+
+Run the content check before opening a pull request. Netlify's deploy preview is the review surface for desktop and mobile layout.
+
+## Deployment and rollback
+
+1. Create a short-lived branch and open a pull request.
+2. Review the GitHub Actions build and Netlify deploy preview.
+3. Merge to `master`; Netlify builds and publishes the production site.
+4. If production regresses, use Netlify's previous successful deploy while preparing a normal revert commit.
+
+Do not commit Netlify tokens, DNS credentials, or generated `public/` files. Domain and TLS settings remain managed in Netlify/DNS rather than this repository.
+
+## Maintenance cadence
+
+- **Per publication or role change:** update the relevant content and latest updates.
+- **Monthly:** review broken external links and stale homepage claims.
+- **Quarterly:** merge dependency update pull requests after checking the deploy preview.
+- **Annually:** review biography, research themes, contact details, SEO description, and archived demo content.
+- **Major upgrades:** migrate Hugo and Wowchemy in a dedicated branch, never together with content changes.
+
+The repository includes weekly Dependabot checks and a CI build. `netlify.toml`, `go.mod`, and GitHub Actions should always agree on the supported Hugo/theme baseline.

@@ -3,6 +3,9 @@
 # Documentation: https://wowchemy.com/docs/page-builder/
 widget: pages
 
+# The single welcome post is kept in the archive but omitted from the research-focused homepage.
+active: false
+
 # This file represents a page section.
 headless: true
 

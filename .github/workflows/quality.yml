@@ -1,0 +1,44 @@
+name: Site quality
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: site-quality-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-22.04
+    timeout-minutes: 10
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Install Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: '0.84.4'
+          extended: true
+
+      - name: Check content conventions
+        run: bash scripts/check-content.sh
+
+      - name: Build production site
+        env:
+          HUGO_ENV: production
+        run: hugo --gc --minify
+
+      - name: Verify key output
+        run: |
+          test -s public/index.html
+          test -s public/index.xml
+          test -s public/sitemap.xml

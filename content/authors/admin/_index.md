@@ -6,7 +6,7 @@ title: Qingyu Zeng
 superuser: true
 
 # Role/position/tagline
-role: Ph.D. Student  
+role: Ph.D. Student · Edge AI & IoT Security
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -14,15 +14,15 @@ organizations:
   url: https://www.isct.ac.jp/en
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests focus on AI for IoT security.
+bio: I build efficient and trustworthy intelligence for secure IoT edge systems.
 
 # Interests to show in About widget
 interests:
  - FPGA
  - Efficient Machine Learning
- - Embedded System
+ - Embedded Systems
  - Internet of Things
- - Intrusion Detection System
+ - Intrusion Detection Systems
  - Computer Architecture
 # Education to show in About widget
 education:
@@ -75,8 +75,7 @@ email: ""
 highlight_name: true
 ---
 
-I'm currently a Ph.D. student at Institute of Science Tokyo, supervised by [Prof. Yuko Hara](https://sites.google.com/view/yukohara/home). My research interests include hardware/software co-design methodologies for embedded systems, IoT security, and intrusion detection system design.
-
+I am a Ph.D. student at the Institute of Science Tokyo, supervised by [Prof. Yuko Hara](https://sites.google.com/view/yukohara/home). My work combines hardware/software co-design, efficient machine learning, and security to build real-time intrusion detection systems for constrained IoT and edge platforms.
 
 
 

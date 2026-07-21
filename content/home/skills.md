@@ -9,25 +9,25 @@ headless: true
 # Order that this section appears on the page.
 weight: 30
 
-title: Skills 
-subtitle:
+title: Research Areas
+subtitle: A hardware-aware approach to practical and trustworthy edge intelligence.
 
 # Showcase personal skills or business features.
 # - Add/remove as many `feature` blocks below as you like.
 # - For available icons, see: https://wowchemy.com/docs/page-builder/#icons
 feature:
-- description: FPGA application, AI accelerator design
+- description: FPGA-based inference and feature selection for deterministic, low-latency detection.
   icon: microchip
   icon_pack: custom
-  name: Hardware
-- description: Machine learning, Deep learning, Imbalanced learning
+  name: Efficient Edge AI
+- description: Interpretable, resilient models designed for constrained and imbalanced operating environments.
   icon: python
   icon_pack: custom
-  name: Algorithm
-- description: DL-based IDS, FPGA-accelerated IDS
+  name: Trustworthy Machine Learning
+- description: Network, provenance, and power side-channel defenses that preserve payload privacy.
   icon: shield-halved
   icon_pack: custom
-  name: Intrusion Detection System 
+  name: IoT Security
 
 # Uncomment to use emoji icons.
 #- icon: ":smile:"
