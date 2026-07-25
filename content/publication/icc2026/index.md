@@ -11,7 +11,7 @@ author_notes:
 - ""
 - ""
 date: "2026-05-08T00:00:00Z"
-doi: ""
+doi: "10.1109/ICC59461.2026.11587746"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2025-01-18T00:00:00Z"
@@ -23,7 +23,7 @@ publishDate: "2025-01-18T00:00:00Z"
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*IEEE International Conference on Communications (ICC)*, Glasgow, Scotland, May 2026. Accepted."
+publication: "*IEEE International Conference on Communications (ICC)*, Glasgow, Scotland, May 2026"
 publication_short: ""
 
 abstract: 
