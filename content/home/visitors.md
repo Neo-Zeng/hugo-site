@@ -14,6 +14,10 @@ advanced:
 ---
 
 <div class="visitor-map-shell">
-  {{< visitor_map id="Z_pZiXy5n-VeQ507ZwjRodHVULMpMwxZnsOkh3-p10o" >}}
-  <p class="visitor-map-credit">Powered by <a href="https://mapmyvisitors.com/" target="_blank" rel="noopener">MapMyVisitors</a></p>
+  <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=Z_pZiXy5n-VeQ507ZwjRodHVULMpMwxZnsOkh3-p10o&cl=ffffff&w=a"></script>
+  #{{< visitor_map id="Z_pZiXy5n-VeQ507ZwjRodHVULMpMwxZnsOkh3-p10o" >}}
+  #<p class="visitor-map-credit">Powered by <a href="https://mapmyvisitors.com/" target="_blank" rel="noopener">MapMyVisitors</a></p>
 </div>
+
+
+#<script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=Z_pZiXy5n-VeQ507ZwjRodHVULMpMwxZnsOkh3-p10o&cl=ffffff&w=a"></script>
