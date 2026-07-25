@@ -8,7 +8,7 @@ author_notes:
 - "presenter"
 - ""
 date: "2025-02-26T00:00:00Z"
-doi: "https://jglobal.jst.go.jp/en/detail?JGLOBAL_ID=202502232058390411"
+doi: ""
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2024-03-27T00:00:00Z"
