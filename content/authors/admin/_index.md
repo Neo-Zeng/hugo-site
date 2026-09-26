@@ -6,7 +6,7 @@ title: Qingyu Zeng
 superuser: true
 
 # Role/position/tagline
-role: Ph.D. Student · Edge AI & IoT Security
+role: Ph.D. · Edge AI & IoT Security
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -75,7 +75,7 @@ email: ""
 highlight_name: true
 ---
 
-I am a Ph.D. student at the Institute of Science Tokyo, supervised by [Prof. Yuko Hara](https://sites.google.com/view/yukohara/home). My work combines hardware/software co-design, efficient machine learning, and security to build real-time intrusion detection systems for constrained IoT and edge platforms.
+I  received my Ph.D. from the Institute of Science Tokyo, supervised by [Prof. Yuko Hara](https://sites.google.com/view/yukohara/home). My work combines hardware/software co-design, efficient machine learning, and security to build real-time intrusion detection systems for constrained IoT and edge platforms.
 
 
 
